@@ -24,6 +24,14 @@ public class SumMethodDemo {
     return total;
   }
 
+  public static int sum(int from, int to, int last){
+    return 0;
+  }
+
+  public static int sum(long from, int to, int last){
+    return 0;
+  }
+
   public static int sum(int from, int to){ // 메서드의 선언
     int total = 0;
     for(int i = from; i<=to; i++){
